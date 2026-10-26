@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import crypto from 'crypto';
 import dns from 'dns';
 import net from 'net';
+import fs from 'fs';
 import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 
 dotenv.config();
@@ -1294,6 +1295,54 @@ app.post('/api/academy/verify-flag', (req: Request, res: Response): void => {
       correct: false,
       message: 'Access Denied: Submitted flag does not match server-verified SHA-256 hash.',
     });
+  }
+});
+
+// -----------------------------------------------------------------------------
+// Real Documentation Retrieval API for Global Command Palette
+// -----------------------------------------------------------------------------
+app.get('/api/docs', (_req: Request, res: Response) => {
+  try {
+    const docsDir = path.join(__dirname, 'docs');
+    if (!fs.existsSync(docsDir)) {
+      res.json({ docs: [] });
+      return;
+    }
+    const files = fs.readdirSync(docsDir).filter(f => f.endsWith('.md'));
+    const docList = files.map(file => {
+      const content = fs.readFileSync(path.join(docsDir, file), 'utf-8');
+      const firstLine = content.split('\n').find(l => l.startsWith('# ')) || `# ${file}`;
+      return {
+        filename: file,
+        title: firstLine.replace(/^#\s*/, '').trim(),
+        path: `/docs/${file}`,
+      };
+    });
+    res.json({ docs: docList });
+  } catch (err: any) {
+    res.status(500).json({ error: 'Failed to list documentation' });
+  }
+});
+
+app.get('/api/docs/:name', (req: Request, res: Response) => {
+  try {
+    const rawName = req.params.name;
+    const safeName = path.basename(rawName).replace(/[^a-zA-Z0-9_\-\.]/g, '');
+    const filename = safeName.endsWith('.md') ? safeName : `${safeName}.md`;
+    const filePath = path.join(__dirname, 'docs', filename);
+
+    if (!fs.existsSync(filePath)) {
+      res.status(404).json({ error: `Documentation file '${filename}' not found.` });
+      return;
+    }
+
+    const content = fs.readFileSync(filePath, 'utf-8');
+    res.json({
+      filename,
+      content,
+    });
+  } catch (err: any) {
+    res.status(500).json({ error: 'Failed to read documentation file' });
   }
 });
 

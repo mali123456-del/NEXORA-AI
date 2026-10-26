@@ -1,0 +1,1298 @@
+# NEXORA AI — ULTIMATE MASTER COMMAND
+## Full Platform Completion + 12 Ecosystems + 4 Intelligence Systems + Advanced AI Features + Error Fixing + Production Readiness
+
+**Official GitHub Repository:** https://github.com/mali123456-del/NEXORA-AI  
+**Local Project Directory:** `H:\NEXORA AI`
+
+**Product:** NEXORA AI  
+**Tagline:** Create. Build. Secure. Automate. Trade. Grow.
+
+**Mission:** Transform NEXORA into a secure, lightweight, commercially viable global AI ecosystem for everyday users, students, developers, authorized ethical hackers, cybersecurity professionals, businesses and enterprise teams.
+
+---
+
+# PART 0 — ABSOLUTE ENGINEERING RULES
+
+Follow these rules throughout the mission.
+
+1. Inspect the actual repository and running application before changing anything.
+2. Do not assume previous implementation reports are accurate. Verify actual source code and runtime behavior.
+3. Preserve existing working code, user data, configuration and uncommitted changes.
+4. Never perform destructive Git operations, hard resets, force-pushes, blind deletions or unnecessary rewrites.
+5. Never commit, push, merge, deploy, publish or release without my explicit approval.
+6. Never expose API keys, passwords, tokens, credentials or private user data.
+7. Never mark a feature complete merely because a UI screen exists.
+8. A feature is complete only when its frontend, backend, data handling, authorization, failure handling and relevant tests work.
+9. Do not remove failing tests, weaken security checks or bypass type errors to produce a green report.
+10. Do not replace real integrations with fake/mock functionality.
+11. Reuse existing architecture wherever it is technically sound.
+12. Optimize the entire platform for my hardware:
+    - Intel Core i5-4200U
+    - 2 cores / 4 threads
+    - 8 GB RAM
+    - SSD
+    - Intel integrated graphics
+    - Windows 10 Pro 64-bit
+13. Prefer cloud-first processing and optional local AI.
+14. Keep the application modular, maintainable, accessible and scalable.
+15. Work sequentially. Finish and verify each phase before moving forward.
+16. If blocked by unavailable credentials, external services or infrastructure, document the blocker and implement safe interfaces without inventing successful integrations.
+
+## Repository and working-state safety
+
+Before implementation:
+- Record branch and current HEAD.
+- Inspect `git status`.
+- Identify all modified, untracked and ignored project files.
+- Identify user changes and preserve them.
+- Record available scripts and existing test commands.
+- Identify current deployment and preview configuration without modifying it.
+
+Do not silently discard or overwrite any existing work.
+
+---
+
+# PART 1 — PHASE 0: COMPLETE INDEPENDENT AUDIT
+
+Inspect the whole NEXORA project.
+
+Audit:
+
+1. Frontend architecture.
+2. Backend architecture.
+3. API endpoints.
+4. Authentication and authorization.
+5. Database schema and migrations.
+6. Tenant isolation and database RLS.
+7. All 12 ecosystem routes.
+8. ThemeContext and Header.
+9. CommandPalette and search indexing.
+10. Role-based experience profiles.
+11. AI provider adapters.
+12. Agent execution engine.
+13. Existing RAG and document processing.
+14. Security authorization and SSRF protection.
+15. Storage and file management.
+16. Notifications and audit ledger.
+17. Subscription and usage accounting.
+18. Integrations and webhooks.
+19. Existing tests and CI.
+20. Windows/Tauri readiness.
+21. Performance and accessibility.
+22. Existing placeholders, TODOs, incomplete workflows and dead code.
+
+Create or update:
+
+- `docs/PHASE_AUDIT.md`
+- `docs/FEATURE_ACCEPTANCE_MATRIX.md`
+- `docs/IMPLEMENTATION_ROADMAP.md`
+- `docs/ERROR_REGISTER.md`
+- `docs/SECURITY_REVIEW.md`
+
+Every capability must receive one status:
+
+- VERIFIED
+- PARTIALLY VERIFIED
+- NOT VERIFIED
+- BLOCKED
+- FAILED
+
+Provide exact file references and test evidence.
+
+---
+
+# PART 2 — COMPLETE ALL 12 ECOSYSTEMS
+
+Preserve these 12 ecosystems and connect them through shared platform services.
+
+## Ecosystem 1 — AI Super Assistant
+
+Complete:
+- Multi-provider AI chat.
+- Auto, Manual and Smart model selection.
+- Document understanding.
+- RAG-based answers.
+- Web research through supported integrations.
+- Image understanding.
+- Writing and summarization.
+- Translation.
+- Code explanation.
+- Voice interaction where supported.
+- Conversation history and summaries.
+- Project-aware context.
+- User-controlled memory.
+- Source citations where available.
+- Exportable conversations.
+- Regeneration and response feedback.
+
+Add:
+- Model capability detection.
+- Context-window management.
+- Provider failure fallback.
+- Token and cost tracking.
+- User-configurable response modes.
+- Clear distinction between sourced information and model-generated conclusions.
+
+## Ecosystem 2 — AI Developer Studio
+
+Complete:
+- AI code generation.
+- Code explanation.
+- Debugging.
+- Refactoring.
+- Test generation.
+- Code review.
+- SAST analysis.
+- Dependency scanning.
+- Documentation generation.
+- Repository understanding.
+- GitHub integration.
+- Project-specific knowledge.
+- Safe code execution in isolated workers.
+
+Advanced additions:
+- Multi-file code changes.
+- Diff preview.
+- Approval before applying changes.
+- Test-driven repair workflows.
+- Architecture mapping.
+- Dependency and license reports.
+- Performance analysis.
+- Secure coding recommendations.
+
+Never execute untrusted code directly on the user's machine or the production application server.
+
+## Ecosystem 3 — AI Ethical Hacking & Penetration Testing Lab
+
+Complete authorized-only workflows:
+- Authorization management.
+- Target allowlists.
+- Scope verification.
+- OWASP assessment.
+- Security header analysis.
+- TLS configuration checks.
+- Approved vulnerability scanning.
+- Safe Nuclei/ZAP integrations where supported.
+- Security findings and severity.
+- Remediation recommendations.
+- Evidence collection.
+- Report generation.
+- CTF and isolated training environments.
+
+Require:
+- Explicit authorization.
+- User-bound, target-bound and operation-bound authorization.
+- Time-limited approval.
+- Scope validation on the server.
+- Rate limits.
+- Timeouts and cancellation.
+- Audit history.
+- Safe isolated workers.
+
+Do not implement credential theft, malware, stealth, persistence, destructive exploitation, phishing campaigns or unrestricted public-target scanning.
+
+## Ecosystem 4 — AI Defensive Security
+
+Complete:
+- Security posture dashboard.
+- Configuration checks.
+- SAST and dependency findings.
+- STRIDE threat modeling.
+- Security event analysis.
+- Log analysis.
+- Incident tracking.
+- Defensive recommendations.
+- Audit ledger.
+- Security report exports.
+- Security notification workflows.
+
+Add:
+- Risk trend visualization.
+- Finding deduplication.
+- Remediation tracking.
+- Security baseline comparisons.
+- Evidence-linked reports.
+- Incident response playbooks.
+
+## Ecosystem 5 — AI Agent Workforce
+
+Complete:
+- Agent creation and configuration.
+- Specialized agent templates.
+- Task planning.
+- Workflow execution.
+- Multi-agent collaboration.
+- Agent memory.
+- Tool permissions.
+- Approval lifecycle.
+- Budgets and timeouts.
+- Retry and recovery.
+- Execution logs.
+- Cancellation.
+- Result verification.
+
+Preserve and improve existing agents such as:
+- Aegis-SecOps
+- Synthetix-QA
+- Argon-Refactor
+- Bioscience-Scout
+
+Add reusable agents for:
+- Research.
+- Business analysis.
+- Document processing.
+- Customer support.
+- Data analysis.
+- Content production.
+
+Require:
+- Per-agent permissions.
+- Explicit tool allowlists.
+- Human approval for high-impact actions.
+- Token and financial budgets.
+- Maximum execution duration.
+- Loop prevention.
+- Secure context isolation.
+
+## Ecosystem 6 — AI Agent & Digital Product Marketplace
+
+Complete:
+- Agent listings.
+- Workflow listings.
+- Search and discovery.
+- Categories.
+- Versions.
+- Publisher profiles.
+- Reviews.
+- Moderation.
+- Install and uninstall.
+- Permissions before installation.
+- Compatibility checks.
+- Usage entitlements.
+
+Add:
+- Verified publisher indicators based on actual checks.
+- Package integrity verification.
+- Version rollback.
+- Marketplace abuse reporting.
+- Clear pricing and commission calculations.
+
+Do not execute marketplace packages with unrestricted privileges.
+
+## Ecosystem 7 — AI Business Studio
+
+Complete:
+- Business planning.
+- SWOT analysis.
+- Business Model Canvas.
+- Pitch decks.
+- Proposal generation.
+- SaaS pricing analysis.
+- Market research.
+- Competitor analysis.
+- Business document generation.
+
+Add:
+- Client proposal templates.
+- Business KPI tracking.
+- Sales workflow templates.
+- Lead research assistance.
+- Business knowledge workspaces.
+
+Distinguish estimated market figures from verified financial data.
+
+## Ecosystem 8 — AI Creator Studio
+
+Complete:
+- Image generation integrations.
+- Image understanding.
+- Content creation.
+- Social media copy.
+- Video generation integrations where available.
+- Brand assets.
+- Templates.
+- Export functionality.
+
+Add:
+- Brand consistency workspace.
+- Content calendar.
+- Reusable content templates.
+- Asset organization.
+- Generation history.
+- Provider cost visibility.
+
+Never claim unavailable generation models or unsupported output resolutions.
+
+## Ecosystem 9 — AI Learning Academy
+
+Complete:
+- AI Cyber Professor.
+- General learning assistant.
+- Learning paths.
+- CTF labs.
+- Quizzes.
+- Progress tracking.
+- Explanations.
+- Learning resources.
+- Practice challenges.
+
+Add:
+- Personalized study plans.
+- Skill assessments.
+- Beginner/intermediate/advanced levels.
+- Source-linked learning material.
+- Achievement tracking.
+
+Never expose challenge answers or server-side verification secrets to the client.
+
+## Ecosystem 10 — AI Data Intelligence
+
+Complete:
+- CSV/JSON import.
+- Supported spreadsheet processing.
+- Data validation.
+- Cleaning.
+- Summaries.
+- Charts.
+- Natural-language questions.
+- Export.
+
+Add:
+- Dataset profiling.
+- Missing-value analysis.
+- Outlier detection.
+- Reusable analysis reports.
+- Query history.
+- Large-file processing with resource limits.
+
+Never upload private datasets to external AI providers without explicit user consent.
+
+## Ecosystem 11 — Automation Hub
+
+Complete:
+- Workflow builder.
+- Trigger and action registry.
+- Webhooks.
+- Scheduled workflows.
+- Agent execution.
+- Human approval steps.
+- Notifications.
+- Execution logs.
+- Retry and cancellation.
+
+Add:
+- Workflow templates.
+- Version history.
+- Visual execution graph.
+- Error recovery.
+- Execution budgets.
+- Idempotency.
+- Secret management.
+- Safe connector permissions.
+
+## Ecosystem 12 — Smart Workspace & Enterprise Cloud
+
+Complete:
+- Workspace management.
+- Projects.
+- Teams.
+- User invitations.
+- RBAC.
+- Tenant isolation.
+- Shared knowledge.
+- Audit logs.
+- Usage dashboards.
+- Workspace settings.
+- Enterprise administration.
+
+Add:
+- Team-level AI budgets.
+- Project-level access controls.
+- Workspace data retention policies.
+- Administrative usage reports.
+- Secure sharing and revocation.
+
+Do not claim regulatory certification without an independent assessment.
+
+---
+
+# PART 3 — THE FOUR NEXORA INTELLIGENCE SYSTEMS
+
+These four systems are mandatory strategic priorities.
+
+They must be built as one shared Intelligence Core rather than four duplicate engines.
+
+## SYSTEM 1 — UNIVERSAL RAG ENGINE
+
+Create a unified Retrieval-Augmented Generation system.
+
+Supported input types where feasible:
+- PDF
+- DOCX
+- TXT
+- Markdown
+- CSV
+- JSON
+- XLSX
+- Source code
+- Project documentation
+- Multiple files and folders
+
+Pipeline:
+
+1. Secure file upload.
+2. MIME/type validation.
+3. File size and decompression limits.
+4. Malware/content safety checks where available.
+5. Text extraction.
+6. OCR only when needed and supported.
+7. Document chunking.
+8. Metadata extraction.
+9. Embedding generation.
+10. Vector indexing.
+11. Hybrid retrieval.
+12. Permission filtering.
+13. Context construction.
+14. Answer generation.
+15. Source citation and verification.
+
+Requirements:
+- Support user-specific and workspace-specific knowledge collections.
+- Preserve document/page/section metadata.
+- Provide source references with answers.
+- Support document replacement and re-indexing.
+- Support deletion and index cleanup.
+- Prevent cross-user and cross-tenant retrieval.
+- Prevent unauthorized document access through search.
+- Support ingestion status and failure recovery.
+- Provide indexing quotas and cost visibility.
+- Handle large files asynchronously.
+- Keep indexing separate from interactive chat requests.
+
+Use existing database/storage architecture where appropriate. If PostgreSQL and pgvector are available, evaluate using them before introducing a separate vector database.
+
+Never treat uploaded documents as trusted system instructions. Defend against prompt injection inside documents.
+
+## SYSTEM 2 — HYBRID AI ENGINE
+
+Build one central AI provider and model-routing service.
+
+Support provider adapters for:
+- Gemini.
+- OpenRouter.
+- Ollama.
+- Additional supported providers through extensible adapters.
+- User-supplied compatible API endpoints only with safe validation.
+
+Operating modes:
+
+A. Cloud AI
+B. Local AI
+C. Hybrid AI
+
+Routing options:
+- Auto.
+- Manual.
+- Smart cost/quality routing.
+
+Capabilities:
+- Model discovery.
+- Provider health checks.
+- Model capability metadata.
+- Streaming responses where supported.
+- Image/document support detection.
+- Embedding model selection.
+- Provider fallback.
+- Retry and timeout policies.
+- Context-window limits.
+- Usage and cost accounting.
+- User-level provider settings.
+- Workspace-level policies.
+
+User API management:
+- Secure API-key entry.
+- Server-side encrypted storage.
+- Connection tests.
+- Model discovery.
+- Key rotation and disconnect.
+- Provider-specific usage visibility.
+- Secret redaction in logs.
+
+Important:
+- Never expose API keys in frontend bundles or browser storage.
+- Do not automatically send sensitive documents to cloud providers.
+- Show the provider and processing mode before sensitive operations.
+- Never assume a local model is automatically private or capable.
+- Do not bypass provider rate limits or terms.
+- Do not fabricate free models, prices or availability.
+
+Local AI must remain optional. The application must work without Ollama installed.
+
+## SYSTEM 3 — AGENT KNOWLEDGE & PROJECT WORKSPACE
+
+Create isolated knowledge spaces for:
+
+- Users.
+- Projects.
+- Agents.
+- Conversations.
+- Teams.
+- Workspaces.
+
+Each project should support:
+- Documents.
+- Source files.
+- Project instructions.
+- Architecture notes.
+- References.
+- RAG knowledge.
+- Conversation summaries.
+- Agent outputs.
+- Execution history.
+- Exportable results.
+
+Each agent should support:
+- Identity and purpose.
+- Instructions.
+- Assigned knowledge collections.
+- Allowed tools.
+- Memory configuration.
+- Execution budget.
+- Approval requirements.
+- Output history.
+
+Memory types:
+1. Conversation summaries.
+2. Project memory.
+3. User-approved preferences.
+4. Agent-specific memory.
+5. Retrieved document knowledge.
+6. Execution history.
+
+Requirements:
+- Explicit memory controls.
+- Edit/delete/export options.
+- Retention policies.
+- Access permissions.
+- No accidental cross-project memory leakage.
+- No automatic loading of every previous conversation.
+- Retrieve only relevant context for the current task.
+
+Use database records and object storage for scalable persistence. Create local workspace folders only when genuinely needed.
+
+## SYSTEM 4 — PERMISSIONED AI COMPUTER CONTROL
+
+Build a controlled tool-execution framework.
+
+Possible capabilities:
+- Read selected files.
+- Search approved folders.
+- Create documents.
+- Generate code.
+- Propose code modifications.
+- Show diffs.
+- Run approved tests in isolated environments.
+- Organize project outputs.
+- Use explicitly connected integrations.
+- Execute approved workflow actions.
+
+Requirements:
+- User explicitly selects accessible folders.
+- Read/write/delete permissions are separate.
+- Restrict filesystem access to approved paths.
+- Prevent path traversal and symlink escapes.
+- Require confirmation before destructive operations.
+- Require approval for external messages, deployments, financial transactions and production changes.
+- Log all tool actions.
+- Provide execution cancellation.
+- Provide rollback where technically possible.
+- Keep execution isolated from platform secrets and unrelated files.
+
+Computer control must never mean unrestricted access to the user's computer.
+
+Do not implement stealth recording, credential extraction, unrestricted remote shell or silent destructive execution.
+
+Start with a safe file workspace and isolated test runner. Add broader desktop automation only after security review.
+
+---
+
+# PART 4 — EIGHT ADVANCED PLATFORM ADDITIONS
+
+Integrate these into existing ecosystems.
+
+## 1. Role-Based Personalized Dashboard
+
+Four experiences:
+- Personal / Everyday User.
+- Developer.
+- Security Professional.
+- Business / Team.
+
+Features:
+- Personalized dashboard.
+- Relevant shortcuts.
+- Recommended workflows.
+- Recent activity.
+- Project context.
+- Customizable widgets.
+
+A persona selection must never grant security privileges.
+
+## 2. Universal Knowledge Hub
+
+Create a central document library:
+- Upload and organize.
+- Search documents.
+- Create knowledge collections.
+- Ask questions.
+- Compare documents.
+- Summarize content.
+- Extract structured information.
+- Link documents to projects and agents.
+
+Integrate with RAG Engine.
+
+## 3. AI Meeting & Voice Assistant
+
+Features:
+- Speech input.
+- Transcription.
+- Meeting summaries.
+- Action-item extraction.
+- Task creation after confirmation.
+
+Requirements:
+- Explicit microphone permission.
+- Visible recording status.
+- Consent and privacy controls.
+- Retention and deletion.
+- Cost limits.
+
+Keep optional.
+
+## 4. Business CRM & Client Workspace
+
+Features:
+- Contacts.
+- Organizations.
+- Leads.
+- Pipeline stages.
+- Client notes.
+- Follow-up reminders.
+- Proposals.
+- Activity history.
+- Client documents.
+
+Require tenant isolation and role permissions.
+
+Do not send external communications without approval.
+
+## 5. Workflow Templates Library
+
+Initial templates:
+- Code review.
+- Bug investigation.
+- Test generation.
+- Authorized security assessment.
+- Security report.
+- Business proposal.
+- Customer support.
+- Content planning.
+- Document research.
+- Study planner.
+
+Support:
+- Versioning.
+- Input validation.
+- Permission declarations.
+- Preview.
+- Approval steps.
+- Execution logs.
+
+## 6. Integrations Center
+
+Evaluate and integrate:
+- GitHub.
+- Google Drive.
+- Google Calendar.
+- Google Tasks.
+- Slack.
+- Supported email providers.
+- MCP servers.
+- AI providers.
+
+Use official APIs, OAuth, minimum scopes and revocable tokens.
+
+Never show an integration as connected without a successful connection test.
+
+## 7. Trust & Privacy Center
+
+Features:
+- Session management.
+- Session revocation.
+- Connected apps.
+- API key management.
+- Data export.
+- Account deletion workflow.
+- Workspace sharing controls.
+- Audit history.
+- Retention settings.
+- AI provider data-use disclosures.
+
+Enforce all security operations server-side.
+
+## 8. Usage, Credits & Cost Dashboard
+
+Display:
+- Provider usage.
+- Model usage.
+- Ecosystem usage.
+- Agent execution costs.
+- Workspace budgets.
+- Available credits.
+- Plan quotas.
+- Usage history.
+- Spending alerts.
+
+Enforce limits server-side. Distinguish estimated costs from confirmed provider-reported charges.
+
+---
+
+# PART 5 — ADDITIONAL ADVANCED FEATURES
+
+Evaluate and implement these where they provide genuine user value.
+
+1. Universal AI Search across conversations, documents, projects and permitted knowledge.
+2. Multi-Agent Collaboration Canvas with task dependencies and approval gates.
+3. AI Research Workspace with source management and citation verification.
+4. Secure API and MCP Permission Gateway.
+5. Intelligent Document Comparison and Extraction.
+6. Project Architecture Mapper.
+7. Automated Test and Quality Assistant.
+8. AI Business Analytics and KPI Assistant.
+9. Personal Learning and Skill Tracker.
+10. Workspace Backup and Restore.
+11. Notification and Activity Center.
+12. Import/export and portability tools.
+13. Feature flags and controlled beta releases.
+14. Admin diagnostics and system health dashboard.
+15. Accessibility and multilingual improvements.
+
+Do not add features merely to increase the feature count. Prioritize usability, reliability, security and retention.
+
+---
+
+# PART 6 — THEME, SEARCH AND ROLE EXPERIENCE VERIFICATION
+
+The previous report states these features are implemented. Verify them independently.
+
+## Theme System
+- Dark, Light and System modes.
+- Header toggle.
+- OS preference listener.
+- Persistence.
+- No startup flash.
+- Consistent theme across all 12 ecosystems.
+- Accessible contrast.
+- Reduced-motion compliance.
+- Correct styling for charts, dialogs and third-party components.
+
+## CommandPalette
+- Ctrl+K and Cmd+K.
+- All 12 ecosystem views.
+- Real documentation indexing.
+- Real actions and settings.
+- Category filtering.
+- Keyboard navigation.
+- Match highlighting.
+- Empty/error/loading states.
+- Permission-aware search.
+- No private content leakage.
+- No stale or fake results.
+
+## Role Profiles
+- Personal.
+- Developer.
+- Security Professional.
+- Business / Team.
+
+Verify:
+- Profile persistence.
+- Navigation personalization.
+- Relevant recommendations.
+- Permission separation.
+- Accessible switching.
+- No accidental privilege escalation.
+
+Fix every discovered defect.
+
+---
+
+# PART 7 — DATABASE, STORAGE AND BACKEND HARDENING
+
+Inspect existing schema before migrations.
+
+Design and verify suitable data structures for:
+
+- Users.
+- Workspaces.
+- Projects.
+- Documents.
+- Document chunks.
+- Embeddings.
+- Knowledge collections.
+- Conversations.
+- Conversation summaries.
+- Agent memory.
+- Agent executions.
+- Tool permissions.
+- Approval requests.
+- Provider configurations.
+- Usage events.
+- Integrations.
+- Audit events.
+- Workflow templates.
+- CRM entities.
+- Subscription entitlements.
+
+Requirements:
+- Correct indexes.
+- Foreign keys.
+- Tenant-aware access controls.
+- Database transactions.
+- Safe migrations.
+- Backup and restore strategy.
+- Data retention.
+- Secure storage.
+- No secrets in plaintext.
+
+Use existing architecture and avoid unnecessary database duplication.
+
+---
+
+# PART 8 — SECURITY AND RELIABILITY AUDIT
+
+Re-test all previously reported security functionality.
+
+## SSRF and authorization
+
+Test:
+- Loopback addresses.
+- Private IPv4 ranges.
+- IPv6 loopback and ULA.
+- Link-local.
+- Cloud metadata.
+- IPv4-mapped IPv6.
+- Unusual numeric IP encodings.
+- Redirect chains.
+- Mixed public/private DNS answers.
+- DNS rebinding.
+- DNS TOCTOU.
+- Proxy environment variables.
+- Connection reuse.
+
+Where possible, pin outbound connections to validated addresses while preserving correct TLS hostname verification.
+
+Verify:
+- Authorization tickets are user-bound.
+- Target-bound.
+- Operation-bound.
+- Time-limited.
+- Server-validated.
+- Resistant to replay.
+
+## CTF security
+
+Verify:
+- Fixed-length hash comparison.
+- Atomic replay prevention.
+- Authenticated-user-bound scores.
+- Concurrency safety.
+- Rate limiting.
+- Retry-After behavior.
+- Server-side flag verification.
+- No exposed challenge solutions.
+
+## AI and document security
+
+Verify:
+- Prompt injection defense.
+- Document access isolation.
+- Tool allowlists.
+- API secret protection.
+- Agent permission boundaries.
+- Data exfiltration prevention.
+- Safe file parsing.
+- Archive bomb protection.
+- Upload size limits.
+- Cross-tenant retrieval protection.
+
+## General application security
+
+Verify:
+- Authentication.
+- Session lifecycle.
+- CSRF protections where applicable.
+- XSS protections.
+- SQL injection protection.
+- Secure cookies.
+- Rate limits.
+- CORS.
+- Input validation.
+- Webhook signatures.
+- Audit logs.
+- Dependency vulnerabilities.
+- Secure error handling.
+
+Never claim production security or compliance certification without evidence.
+
+---
+
+# PART 9 — PERFORMANCE AND HARDWARE OPTIMIZATION
+
+The application must remain usable on my i5-4200U and 8 GB RAM laptop.
+
+Mandatory:
+- Route-based lazy loading.
+- Code splitting.
+- Tree shaking.
+- Virtualized long lists.
+- Pagination.
+- Efficient search indexes.
+- Limited concurrent background jobs.
+- Memory leak detection.
+- Reduced polling.
+- Image optimization.
+- Lazy loading of Three.js.
+- Lazy loading of heavy charts.
+- Streaming for large file processing.
+- Bounded caches.
+- Background processing for expensive indexing.
+- Proper cancellation.
+- Avoid large local AI models by default.
+
+Cloud workers should perform expensive:
+- Embedding generation.
+- Large-document processing.
+- Heavy security scans.
+- Large codebase analysis.
+- Long-running agent tasks.
+
+Local features should remain lightweight.
+
+Produce actual measurements rather than unsupported performance claims.
+
+---
+
+# PART 10 — SUBSCRIPTION AND COMMERCIAL READINESS
+
+Prepare four subscription tiers.
+
+## Free
+- Starter AI assistant.
+- Limited document and RAG usage.
+- Basic learning.
+- Limited workflows.
+
+## Pro
+- Higher AI and document limits.
+- Developer tools.
+- Personal automation.
+- Advanced knowledge workspaces.
+
+## Ultimate
+- Advanced agents.
+- Higher usage budgets.
+- Advanced developer and security tools.
+- More integrations.
+
+## Business
+- Team workspaces.
+- RBAC.
+- Shared knowledge.
+- Central usage management.
+- Audit and governance features.
+- Business automation.
+
+Requirements:
+- Server-side entitlement checks.
+- Transparent quotas.
+- Usage metering.
+- Payment webhook verification.
+- Idempotent billing events.
+- Upgrade/downgrade handling.
+- Refund handling where supported.
+- No fabricated transactions.
+- No unvalidated subscription pricing.
+
+Calculate actual infrastructure, provider, storage and payment costs before setting final prices.
+
+Prepare:
+- Competitor analysis.
+- Product differentiation.
+- Unit economics.
+- Customer personas.
+- Activation metrics.
+- Retention metrics.
+- Conversion metrics.
+- Market validation plan.
+
+Do not claim guaranteed revenue, worldwide dominance or a specific valuation.
+
+---
+
+# PART 11 — WINDOWS DESKTOP AND PWA READINESS
+
+Prepare the existing platform for:
+
+1. Web application.
+2. PWA.
+3. Windows desktop `.exe`.
+
+Preferred desktop direction:
+- Tauri 2.
+- Existing React frontend.
+- Lightweight Rust desktop shell.
+
+Before implementation, inspect current desktop configuration.
+
+Requirements:
+- Windows 10 compatibility.
+- Secure IPC.
+- Safe filesystem permissions.
+- Native notifications where supported.
+- File import/export.
+- Secure local configuration.
+- Cloud login.
+- Optional local Ollama integration.
+- Installer and uninstall testing.
+- Update security.
+- Code signing readiness.
+
+Do not bundle large local AI models inside the installer.
+
+Do not build or publish a final release without my approval.
+
+---
+
+# PART 12 — TESTING, ERROR FIXING AND QUALITY GATES
+
+Create a complete test and defect-fixing cycle.
+
+For every phase:
+
+1. Inspect affected code.
+2. Identify root causes.
+3. Implement fixes.
+4. Add regression tests.
+5. Run relevant tests.
+6. Review security implications.
+7. Verify frontend and backend integration.
+8. Update documentation.
+
+Run all available commands for:
+
+- TypeScript typecheck.
+- Lint.
+- Unit tests.
+- Integration tests.
+- API tests.
+- Database migration tests.
+- Authentication tests.
+- Authorization tests.
+- Tenant-isolation tests.
+- RAG retrieval tests.
+- Embedding tests.
+- Provider adapter tests.
+- Agent execution tests.
+- Tool permission tests.
+- SSRF tests.
+- CTF tests.
+- Webhook tests.
+- UI tests.
+- Accessibility tests.
+- Production build.
+- Runtime health checks.
+- Route smoke tests.
+- Windows packaging checks where supported.
+
+Do not invent test results.
+
+If the project uses `compile_applet` and `lint_applet`, run them as additional checks, not as substitutes for actual application tests.
+
+---
+
+# PART 13 — EXECUTION ORDER
+
+Execute in the following sequence.
+
+## Stage A — Audit and Stabilization
+- Phase 0 repository audit.
+- Error register.
+- Security review.
+- Fix existing type, lint, build and runtime errors.
+- Verify previously implemented Theme, Search and Role Profiles.
+
+## Stage B — Shared Intelligence Core
+- Hybrid AI provider architecture.
+- User API integration.
+- Universal RAG.
+- Knowledge storage.
+- Project workspace.
+- Chat context preparation.
+- Agent knowledge and memory.
+
+## Stage C — Agent and Computer Control
+- Agent execution improvements.
+- Tool registry.
+- Permission gateway.
+- Approval system.
+- Isolated file workspace.
+- Diff-based code changes.
+- Safe test runner.
+
+## Stage D — Ecosystem Completion
+- Complete and connect all 12 ecosystems.
+- Remove duplicated engines.
+- Improve workflows.
+- Connect notifications, usage, search and knowledge.
+
+## Stage E — Advanced Platform Features
+- Personalized dashboards.
+- Universal Knowledge Hub.
+- Workflow templates.
+- Integrations Center.
+- Trust & Privacy Center.
+- Usage dashboard.
+- CRM.
+- Optional Voice Assistant.
+
+## Stage F — Enterprise and Commercial Readiness
+- Team administration.
+- RBAC.
+- Billing and entitlements.
+- Audit and governance.
+- Backup and restore.
+- Market validation documentation.
+
+## Stage G — Performance and Release Readiness
+- Performance optimization.
+- Accessibility.
+- Security verification.
+- PWA.
+- Tauri desktop readiness.
+- Windows packaging tests.
+- Documentation and release checklist.
+
+Complete each stage with evidence before starting the next.
+
+---
+
+# PART 14 — REQUIRED DOCUMENTATION
+
+Create or update:
+
+- `docs/MASTER_ARCHITECTURE.md`
+- `docs/INTELLIGENCE_CORE.md`
+- `docs/RAG_ARCHITECTURE.md`
+- `docs/HYBRID_AI_ROUTING.md`
+- `docs/AGENT_KNOWLEDGE_AND_MEMORY.md`
+- `docs/COMPUTER_CONTROL_SECURITY.md`
+- `docs/DATABASE_SCHEMA.md`
+- `docs/API_REFERENCE.md`
+- `docs/SECURITY_THREAT_MODEL.md`
+- `docs/SECURITY_REVIEW.md`
+- `docs/PRIVACY_AND_DATA_GOVERNANCE.md`
+- `docs/PERFORMANCE_GUIDE.md`
+- `docs/WINDOWS_DESKTOP_GUIDE.md`
+- `docs/BUSINESS_AND_MONETIZATION_STRATEGY.md`
+- `docs/FEATURE_VERIFICATION_MATRIX.md`
+- `docs/IMPLEMENTATION_ROADMAP.md`
+- `docs/ERROR_REGISTER.md`
+- `docs/RELEASE_CHECKLIST.md`
+
+Documentation must describe the real implementation, not planned or imaginary functionality.
+
+---
+
+# PART 15 — FINAL ACCEPTANCE CRITERIA
+
+The mission is not complete until:
+
+1. All 12 ecosystem routes work.
+2. All major ecosystem workflows have backend integration.
+3. Theme system works globally.
+4. Global search indexes actual permitted content.
+5. Role-based dashboards work without privilege escalation.
+6. RAG produces grounded, source-linked answers.
+7. Hybrid routing works with verified providers.
+8. User API keys remain protected.
+9. Local AI is optional.
+10. Agent knowledge is isolated.
+11. Project memory works with explicit user controls.
+12. Computer Control respects file and tool permissions.
+13. High-impact actions require approval.
+14. Security authorization and SSRF protections pass regression tests.
+15. Database migrations are safe.
+16. Tenant isolation is verified.
+17. All critical tests pass.
+18. Production build succeeds.
+19. Runtime health and major routes are verified.
+20. Performance remains reasonable on the target PC.
+21. PWA and Tauri compatibility are documented and tested where feasible.
+22. Documentation accurately reflects implementation.
+
+---
+
+# PART 16 — MANDATORY FINAL REPORT
+
+Return a detailed, evidence-based report.
+
+Include:
+
+1. Starting Git branch and HEAD.
+2. Starting and final working-tree status.
+3. All existing changes preserved.
+4. Actual architecture discovered.
+5. Every phase completed.
+6. Every phase partially completed.
+7. Blocked items and reasons.
+8. Exact files changed.
+9. Database and migration changes.
+10. API endpoints added or changed.
+11. Test commands and actual results.
+12. Typecheck and lint results.
+13. Build results.
+14. Runtime verification.
+15. Security findings.
+16. RAG retrieval and source-citation test evidence.
+17. Hybrid provider test evidence.
+18. Agent memory isolation tests.
+19. Computer Control permission tests.
+20. Performance measurements.
+21. Accessibility results.
+22. Screenshots and working preview URL, if available.
+23. Updated documentation.
+24. Remaining defects.
+25. Recommended next mission.
+
+Use only:
+- VERIFIED
+- PARTIALLY VERIFIED
+- NOT VERIFIED
+- BLOCKED
+- FAILED
+
+Clearly distinguish implemented features from independently tested features.
+
+## FINAL EXECUTION INSTRUCTION
+
+Start immediately with Stage A.
+
+Do not stop after generating a roadmap or designing UI mockups. Implement actual functionality, fix root causes, test the integrations and continue through the roadmap in manageable stages.
+
+If execution limits are reached, save all progress, update the error register and acceptance matrix, document exact remaining tasks, and provide the next continuation checkpoint.
+
+**Do not commit, push, merge, deploy, publish or release anything without my explicit approval.**
+
+The ultimate objective is to build NEXORA AI as a connected, secure, lightweight, intelligent and commercially viable global platform — not merely a large collection of disconnected AI screens.

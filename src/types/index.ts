@@ -14,6 +14,17 @@ export type EcosystemId =
 
 export type SubscriptionPlan = 'FREE' | 'PRO' | 'ULTIMATE' | 'BUSINESS';
 
+export type UserRoleProfile = 'everyday' | 'developer' | 'security' | 'business';
+
+export interface RoleProfileConfig {
+  id: UserRoleProfile;
+  title: string;
+  badge: string;
+  description: string;
+  primaryEcosystem: EcosystemId;
+  recommendedEcosystems: EcosystemId[];
+}
+
 export interface ChatMessage {
   id: string;
   role: 'user' | 'assistant' | 'system';

@@ -242,3 +242,14 @@ export async function verifyCtfFlag(
   return res.json();
 }
 
+export async function fetchDocContent(docNameOrPath: string): Promise<{ filename: string; content: string }> {
+  const cleanName = docNameOrPath.replace(/^\/docs\//, '').replace(/\.md$/, '');
+  const res = await fetch(`/api/docs/${encodeURIComponent(cleanName)}`);
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ error: 'Document query failed' }));
+    throw new Error(err.error || `HTTP ${res.status}`);
+  }
+  return res.json();
+}
+
+
