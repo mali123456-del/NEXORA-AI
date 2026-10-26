@@ -1,0 +1,48 @@
+# NEXORA AI — Development Roadmap (Phases 0 through 14)
+
+## Phase Breakdown & Milestone Schedule
+- [x] **Phase 0: Audit & Architecture Baseline**
+  - Project inspection, baseline build verification, documentation suite creation.
+  - Status: VERIFIED.
+- [x] **Phase 1: Core Foundation & UI Shell**
+  - Dark cybersecurity design system, responsive navigation, Command Palette (Cmd+K).
+  - Status: VERIFIED.
+- [x] **Phase 2: Shared AI Intelligence Gateway**
+  - Server-side `@google/genai` proxy, `gemini-4-argon`, `gemini-3.8-flash`, `gemini-nano-banana-2.1`, `gemini-omni-1.1-flash`, token & cost telemetry.
+  - Status: VERIFIED.
+- [x] **Phase 3: AI Super Assistant**
+  - Thinking Level High (`gemini-4-argon`), Google Search Grounding, vision analysis, TTS audio output.
+  - Status: VERIFIED.
+- [x] **Phase 4: AI Developer Studio**
+  - Code generation, refactoring, SAST static security review, unit test synthesis.
+  - Status: VERIFIED.
+- [x] **Phase 5: Ethical Hacking Lab & Defensive Security**
+  - Explicit authorization gatekeeper, SSRF defense (RFC1918, loopback, cloud metadata blocking), OWASP header audits, STRIDE threat models.
+  - Status: VERIFIED.
+- [x] **Phase 6: AI Agent Workforce**
+  - Multi-agent collaboration, delegation pipeline, human approval review gate, token budgeting.
+  - Status: VERIFIED.
+- [x] **Phase 7: Automation Hub & Workspace**
+  - Event-driven pipeline, Google Tasks API integration with destructive operation user confirmation.
+  - Status: VERIFIED.
+- [x] **Phase 8: AI Marketplace**
+  - Agent & blueprint catalog, 20% commission model, install/uninstall state.
+  - Status: VERIFIED.
+- [x] **Phase 9: Business, Creator, Learning & Data Intelligence**
+  - 1K/2K/4K high-res image generation, Omni Flash video animation, CTF challenges with interactive flags, CSV table parsing & charts.
+  - Status: VERIFIED.
+- [x] **Phase 10: Subscription & Monetization System**
+  - Free, Pro ($29), Ultimate ($89), Business ($249) tiers and unit economics.
+  - Status: VERIFIED.
+- [x] **Phase 11: Enterprise Cloud & Governance**
+  - Three.js 3D Cyber-Neural Core (r174, RoomEnvironment PBR, collapsible dock), DeepMind Bioscience Lab (UniProt, AlphaFold, PubChem), RBAC.
+  - Status: VERIFIED.
+- [x] **Phase 12: Low-Resource & PWA Portability**
+  - Runs in lightweight environments without requiring local GPUs; cloud-first inference.
+  - Status: VERIFIED.
+- [x] **Phase 13: Final Hardening & Verification**
+  - Zero TypeScript compile or lint errors.
+  - Status: VERIFIED.
+- [x] **Phase 14: Acquisition Readiness Dossier**
+  - Clean IP, zero secret leakage, audit logs, financial data room structure.
+  - Status: VERIFIED.

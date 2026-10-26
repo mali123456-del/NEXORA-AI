@@ -1,0 +1,33 @@
+# NEXORA AI — Production Release & Due Diligence Checklist
+
+## Pre-Release Verification
+- [x] **Full-Stack Build Passing:** `npm run build` succeeds cleanly without warnings.
+- [x] **TypeScript Strict Typing:** `npm run lint` (`tsc --noEmit`) passes with 0 errors.
+- [x] **Zero Secret Leakage:** Client bundles inspected; no API keys embedded in frontend code.
+- [x] **SSRF Defense Verification:**
+  - Loopback (`127.0.0.1`, `localhost`) -> REJECTED with 400.
+  - RFC1918 Private ranges (`10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`) -> REJECTED with 400.
+  - Cloud metadata (`169.254.169.254`) -> REJECTED with 400.
+- [x] **Ethical Hacking Authorization Gate:**
+  - Unchecked authorization checkbox -> BLOCKED with 403.
+  - Valid checked authorization -> Safe non-destructive OWASP audit executed.
+- [x] **Three.js 3D Viewport Fidelity:**
+  - Tested on software and GPU contexts.
+  - RoomEnvironment reflections and ACESFilmicToneMapping verified.
+  - Collapsible bottom dock keeps central 3D viewport 100% unobstructed.
+- [x] **DeepMind Bioscience Engine:**
+  - UniProtKB API queried (`P04637` / TP53).
+  - AlphaFold DB prediction metadata fetched.
+  - PubChem PUG REST queried for chemical SMILES.
+- [x] **Google Tasks & Workspace Integration:**
+  - Synced task management queue.
+  - Explicit confirmation modal for destructive task deletion operations.
+- [x] **Gemini Intelligence Models:**
+  - `gemini-4-argon`: High Thinking reasoning & SAST audits.
+  - `gemini-3.8-flash`: Fast chat & Google Search Grounding.
+  - `gemini-nano-banana-2.1`: High-quality 1K, 2K, 4K image generation.
+  - `gemini-omni-1.1-flash`: Image-to-video animation via Interactions API.
+  - `gemini-3.8-flash-lite-tts`: Text-to-speech audio playback.
+- [x] **Commercial SaaS Tiers:**
+  - Free, Pro ($29), Ultimate ($89), Business ($249) tiers configured with real token and cost tracking.
+- [x] **Acquisition Readiness:** Complete 11-part architecture and audit documentation suite in `/docs`.

@@ -1,0 +1,11 @@
+{
+  "name": "NEXORA AI — All-in-One AI Ecosystem",
+  "description": "Integrated AI platform for development, ethical hacking, defensive security, agent automation, and intelligent workflows.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
