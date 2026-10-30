@@ -18,6 +18,7 @@ import {
 import { SubscriptionPlan, UserRoleProfile } from '../types';
 import { getTelemetryUsage } from '../services/api';
 import { useTheme, ThemeMode } from '../context/ThemeContext';
+import { ModelStatus } from './ModelStatus';
 
 interface HeaderProps {
   currentPlan: SubscriptionPlan;
@@ -137,6 +138,9 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Right Controls: Telemetry, Tasks, Theme, Role, Plan, Audit */}
       <div className="flex items-center space-x-2">
+        {/* Model Status Indicator & Latency Tracker */}
+        <ModelStatus currentPlan={currentPlan} />
+
         {/* Token Accounting & Spend Tracker */}
         <div className="hidden xl:flex items-center space-x-3 px-3 py-1.5 rounded-xl bg-slate-900/80 border border-slate-800 text-xs font-mono">
           <div className="flex items-center space-x-1.5 text-slate-300">
